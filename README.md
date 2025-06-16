@@ -134,6 +134,7 @@ SECrawler.sln
 This project is open-source and was created as part of a technical coding test.
 
 ---
+![image](https://github.com/user-attachments/assets/a3d2fc7b-e556-4156-875c-d03b4143b645)
 
 ## 🙇‍♂️ Author
 
