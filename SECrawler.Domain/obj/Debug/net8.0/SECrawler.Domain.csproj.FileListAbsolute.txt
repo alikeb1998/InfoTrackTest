@@ -1,0 +1,12 @@
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\bin\Debug\net8.0\SECrawler.Domain.deps.json
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\bin\Debug\net8.0\SECrawler.Domain.dll
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\bin\Debug\net8.0\SECrawler.Domain.pdb
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\SECrawler.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\SECrawler.Domain.AssemblyInfoInputs.cache
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\SECrawler.Domain.AssemblyInfo.cs
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\SECrawler.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\SECrawler.Domain.sourcelink.json
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\SECrawler.Domain.dll
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\refint\SECrawler.Domain.dll
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\SECrawler.Domain.pdb
+C:\Users\alike\RiderProjects\InfoTrackTest\SECrawler.Domain\obj\Debug\net8.0\ref\SECrawler.Domain.dll

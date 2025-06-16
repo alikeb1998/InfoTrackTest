@@ -1,8 +1,62 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{71537B45-794C-4551-B8E8-61FC863C0CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C6614573-C3B4-4C4C-922F-C2A1E5CE58CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B888FE1A-2C4C-480B-952E-3FCC2BD0435D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SECrawler.Api", "SECrawler.Api\SECrawler.Api.csproj", "{F82509CC-B438-47BA-B5B0-ADD01FC6A7D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D943A8C9-EFAC-4F14-A3E3-D3A34E539348}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3B570643-1A1F-434E-AAA8-8EBD9BEA6128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SECrawler.Application", "SECrawler.Application\SECrawler.Application.csproj", "{678177E1-1C1B-41C7-9494-1E6E056E04B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SECrawler.Domain", "SECrawler.Domain\SECrawler.Domain.csproj", "{2FE2F67D-B9E0-4605-A38F-D7CD2B91BC1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SECrawler.Infrastructure", "SECrawler.Infrastructure\SECrawler.Infrastructure.csproj", "{A256AF28-ECD4-407E-8F01-B21CF6B40311}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{28CEA587-A16C-43BB-AF95-D6FB2AA7D7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SECrawlerTests", "SECrawlerTests\SECrawlerTests.csproj", "{942BA785-8F74-4060-A198-4125E3E24BDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F82509CC-B438-47BA-B5B0-ADD01FC6A7D1} = {B888FE1A-2C4C-480B-952E-3FCC2BD0435D}
+		{678177E1-1C1B-41C7-9494-1E6E056E04B4} = {3B570643-1A1F-434E-AAA8-8EBD9BEA6128}
+		{2FE2F67D-B9E0-4605-A38F-D7CD2B91BC1C} = {71537B45-794C-4551-B8E8-61FC863C0CF3}
+		{A256AF28-ECD4-407E-8F01-B21CF6B40311} = {C6614573-C3B4-4C4C-922F-C2A1E5CE58CC}
+		{942BA785-8F74-4060-A198-4125E3E24BDE} = {28CEA587-A16C-43BB-AF95-D6FB2AA7D7DE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F82509CC-B438-47BA-B5B0-ADD01FC6A7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82509CC-B438-47BA-B5B0-ADD01FC6A7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82509CC-B438-47BA-B5B0-ADD01FC6A7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82509CC-B438-47BA-B5B0-ADD01FC6A7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678177E1-1C1B-41C7-9494-1E6E056E04B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678177E1-1C1B-41C7-9494-1E6E056E04B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678177E1-1C1B-41C7-9494-1E6E056E04B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678177E1-1C1B-41C7-9494-1E6E056E04B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE2F67D-B9E0-4605-A38F-D7CD2B91BC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE2F67D-B9E0-4605-A38F-D7CD2B91BC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE2F67D-B9E0-4605-A38F-D7CD2B91BC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE2F67D-B9E0-4605-A38F-D7CD2B91BC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A256AF28-ECD4-407E-8F01-B21CF6B40311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A256AF28-ECD4-407E-8F01-B21CF6B40311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A256AF28-ECD4-407E-8F01-B21CF6B40311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A256AF28-ECD4-407E-8F01-B21CF6B40311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942BA785-8F74-4060-A198-4125E3E24BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942BA785-8F74-4060-A198-4125E3E24BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942BA785-8F74-4060-A198-4125E3E24BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942BA785-8F74-4060-A198-4125E3E24BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

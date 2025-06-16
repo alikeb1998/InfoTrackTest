@@ -1,0 +1,6 @@
+﻿services:
+  secrawler.api:
+    image: secrawler.api
+    build:
+      context: .
+      dockerfile: SECrawler.Api/Dockerfile
